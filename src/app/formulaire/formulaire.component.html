@@ -1,0 +1,5 @@
+
+<p>Description inscrite dans le formulaire: {{formulaire.nom}}, {{formulaire.prenom}}, {{formulaire.description}} </p>
+<input [ngModel]="formulaire.nom" (ngModelChange)="changeNom($event)" placeholder="Nom"><br>
+<input [ngModel]="formulaire.prenom" (ngModelChange)="changePrenom($event)" placeholder="Prénom"><br>
+<input [ngModel]="formulaire.description" (ngModelChange)="changeDescription($event)" placeholder="Description"><br>

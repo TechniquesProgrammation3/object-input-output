@@ -1,0 +1,6 @@
+<div>Description du formulaire recueillie dans composant parent: {{formulaire.nom}}, {{formulaire.prenom}}, {{formulaire.description}} </div>
+<app-formulaire [(formulaire)]="formulaire"></app-formulaire>
+
+<app-liste-elements [formulaire]="formulaire"></app-liste-elements>
+
+<router-outlet></router-outlet>
